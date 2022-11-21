@@ -43,10 +43,6 @@ int main(int argc, char* argv[]) {
         encoded.push_back(binaryStoi(c));
     }
 
-    // for(int i = 0; i < input.size(); i++) {
-    //     encoded.push_back(binaryStoi(input.at(i)));
-    // }
-
     Node* head;
     head = buildTree(in, level, 0, in.size() - 1);
 
